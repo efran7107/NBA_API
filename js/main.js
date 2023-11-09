@@ -1,3 +1,6 @@
+// In the middle of editing the project the api I was using went offline and did not find
+// the new link, so I found another api for this project that does work
+
 const url = "https://api-nba-v1.p.rapidapi.com/teams";
 const option = {
     method: "GET",

@@ -10,6 +10,8 @@
     align-items: center;
     gap: 50px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .search-sort-container {
@@ -36,8 +38,8 @@
 .teams-container {
     max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
-    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(175px, 275px));
+    grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
     gap: 50px;
     margin-left: auto;
     margin-right: auto;

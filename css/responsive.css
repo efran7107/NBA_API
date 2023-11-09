@@ -1,0 +1,26 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+    .teams-container {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 1042px) {
+    .container {
+        max-width: 800px;
+    }
+    .teams-container {
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 972px) {
+    .container {
+        max-width: 750px;
+    }
+    .teams-container {
+        max-width: 750px;
+    }
+}

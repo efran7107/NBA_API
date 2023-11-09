@@ -27,6 +27,12 @@
 }
 
 @media screen and (max-width: 660px) {
+    .container {
+        max-width: 600px;
+    }
+    .teams-container {
+        max-width: 600px;
+    }
     .search-sort-container {
         max-width: 400px;
     }
@@ -36,5 +42,17 @@
     .sort-list {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 300px;
+    }
+    .teams-container {
+        max-width: 300px;
+    }
+    .search-sort-container {
+        max-width: 300px;
     }
 }
